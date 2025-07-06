@@ -57,15 +57,21 @@ struct node {
 
 
 🖥️ Menu Options
+
 Insert
+
 Delete
+
 Get-Nth
+
 Count
+
 Exit
 
 📦 Compilation
 
 gcc linked_queue.c -o linked_queue
+
 ./linked_queue
 
 ---
@@ -91,23 +97,33 @@ struct unit {
 
 🎮 Gameplay
 Each player takes turns to buy units (e.g. Peon, Grunt, Troll).
+
 Workers generate money, military units consume money and increase attack power.
+
 The game tracks each player’s money and army power.
+
 Victory is achieved when one player has:
+
 Significantly more army power, or
+
 Accumulated enough money.
 
 🛠️ Features
 Initialization of unit types (can be read from file).
+
 Two arrays of units, one for each player.
+
 Turn-based input loop for unit purchases.
+
 Dynamic tracking of total money and army strength.
 
 🏁 Victory Conditions
 Money-based or army-based win.
+
 Game ends immediately upon victory condition met.
 
 📦 Compilation
 
 gcc strategy_game.c -o strategy_game
+
 ./strategy_game
