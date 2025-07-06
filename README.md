@@ -33,7 +33,6 @@ gcc hangman_game.c -o hangman_game
 
 ---
 
-## 📁 `linked_queue.c`
 
 # Linked List Queue Implementation
 
