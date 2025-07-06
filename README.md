@@ -1,3 +1,10 @@
+# C Structs and Games
+
+This repository contains small educational projects in the C programming language, focusing on the use of `struct` types to build interactive command-line applications. The programs include data structures like queues and game logic implementations such as Hangman and a simple turn-based strategy game.
+
+Each project demonstrates key concepts in procedural programming, dynamic memory allocation, and user-driven design.
+
+
 # Hangman Game
 
 This project implements a simplified version of the classic Hangman word-guessing game in C.
