@@ -27,6 +27,7 @@ This project implements a simplified version of the classic Hangman word-guessin
 ## 📦 Compilation
 
 gcc hangman_game.c -o hangman_game
+
 ./hangman_game
 
 
