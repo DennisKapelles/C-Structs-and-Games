@@ -48,13 +48,6 @@ The program defines a `struct node` and allows the user to perform queue operati
 - `GetNth`: Retrieve the value at a specific position in the queue.
 - `Count`: Count how many times a specific value appears in the queue.
 
-## 📂 Data Structure
-
-struct node {
-    int data;
-    struct node* next;
-};
-
 
 🖥️ Menu Options
 
@@ -76,9 +69,8 @@ gcc linked_queue.c -o linked_queue
 
 ---
 
-## Strategy battle game
 
-# Turn-Based Strategy Game
+# Strategy battle game
 
 This project simulates a simplified two-player turn-based strategy game in C, involving unit purchasing, resource management, and combat strength.
 
@@ -86,16 +78,9 @@ This project simulates a simplified two-player turn-based strategy game in C, in
 
 A `unit` structure holds attributes like name, attack power, cost, upkeep, and quantity owned.
 
-struct unit {
-    char name[20];
-    int att;
-    int cost;
-    int sup;
-    int code;
-    int num;
-};
 
 🎮 Gameplay
+
 Each player takes turns to buy units (e.g. Peon, Grunt, Troll).
 
 Workers generate money, military units consume money and increase attack power.
@@ -109,6 +94,7 @@ Significantly more army power, or
 Accumulated enough money.
 
 🛠️ Features
+
 Initialization of unit types (can be read from file).
 
 Two arrays of units, one for each player.
@@ -118,6 +104,7 @@ Turn-based input loop for unit purchases.
 Dynamic tracking of total money and army strength.
 
 🏁 Victory Conditions
+
 Money-based or army-based win.
 
 Game ends immediately upon victory condition met.
