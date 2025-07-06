@@ -4,7 +4,6 @@ This repository contains small educational projects in the C programming languag
 
 Each project demonstrates key concepts in procedural programming, dynamic memory allocation, and user-driven design.
 
-
 # Hangman Game
 
 This project implements a simplified version of the classic Hangman word-guessing game in C.
